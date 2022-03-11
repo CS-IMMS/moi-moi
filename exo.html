@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moi exo</title>
+                            <!--lien css bootstrap-->
+                            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                            <!--google font-->
+                        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+                      <!--lien font awesomme-->
+                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    
+</head>
+<body>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item bg-primary text-white"  role="presentation">
+    <button class="nav-link active bg-outline-primary" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+      <i class="fas fa-home fa-4x"></i>
+      <p>Home</p>
+
+    </button>
+  </li>
+  <li class="nav-item bg-success" role="presentation">
+    <button class="nav-link  bg-success text-white" id="resume-tab" data-bs-toggle="tab" data-bs-target="#resume" type="button" role="tab" aria-controls="resume" aria-selected="false">
+      <i class="fas fa-graduation-cap fa-4x"></i>
+      <p>Resume</p>
+    </button>
+  </li>
+  <li class="nav-item bg-warning text-white" role="presentation">
+    <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">
+      <i class="fas fa-folder-open fa-4x"></i>
+      <p>Work</p>
+     </button>
+  </li>
+  <li class="nav-item bg-danger text-white" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+      <i class="fas fa-envelope fa-4x"></i>
+      <p>Contact</p>
+
+    </button>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div>
+      <div class="pt-4 pb-4 px-4  bg-primary">
+          <h2>Welcome to my page</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio.</p>
+      </div>
+      <div class="bg-ligth">
+          <h2>My Skills</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, adipisci?</p>
+      </div>
+      <h4>HTML</h4>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h4>CSS</h4>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h4>Javascript</h4>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h4>Bootstrap</h4>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+    </div>
+<!----->
+  </div>
+  <div class="tab-pane " id="resume" role="tabpanel" aria-labelledby="resume-tab">
+    <div>
+      <div class="bg-success pt-4 pb-4 px-4">
+          <h3>My Resume</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, at.</p>
+      </div>
+      <div class="bg-ligth">
+          <h2>Where have I worked ?</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, adipisci?</p>
+      </div>
+      <div class="row d-flex justify-content-center">
+          <div class="col-3  card border-success mb-3" style="max-width: 100%;">
+              <div class="card-header bg-transparent border-success">CODELOCCOL</div>
+              <div class="card-body text-success">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Position: Full stack Developer</h5>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Phone:(+227)96900473</h5>
+              </div>
+              <div class="card-footer bg-transparent border-success">Date 2022</div>
+          </div>
+          <div class="col-3  card border-success mb-3" style="max-width: 20rem;">
+              <div class="card-header bg-transparent border-success">DR IMMS </div>
+              <div class="card-body text-success">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Position: Front End Developer</h5>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Phone:(+227)80423656</h5>
+              </div>
+              <div class="card-footer bg-transparent border-success">Date 2022</div>
+          </div>
+          <div class="col-3  card border-success mb-3" style="max-width: 20rem;">
+              <div class="card-header bg-transparent border-success">IMMS Disigns</div>
+              <div class="card-body text-success">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Position: Designer</h5>
+                  <h5 class="bg-dark text-white pt-2 pb-2 ">Phone:(+227)96900473</h5>
+              </div>
+              <div class="card-footer bg-transparent border-success">Date 2022</div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="tab-pane " id="work" role="tabpanel" aria-labelledby="work-tab">
+    <div>
+      <div class="bg-warning pt-4 pb-4 px-4">
+          <h3>My Portfolio</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, at.</p>
+      </div>
+      <div class="bg-ligth">
+          <h2>What have I built ?</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, adipisci?</p>
+      </div>
+      <div class="work ">
+          <img src="img/a.jpg" class="img-thumbnail w-25 h-25" alt="photo">
+          <img src="img/images.jpg" class="img-thumbnail w-25 h-25" alt="...">
+          <img src="img/MGICC-complex-1.jpg" class="img-thumbnail w-25 h-25" alt="...">
+          <img src="img/pexels-chris-schippers-421927.jpg" class="img-thumbnail w-25 h-25" alt="...">
+          <img src="img/pexels-chris-schippers-421927.jpg" class="img-thumbnail w-25 h-25" alt="...">
+          <img src="img/pexels-peng-liu-169647.jpg" class="img-thumbnail w-25 h-25" alt="...">
+      </div>
+    </div>
+  </div>
+  <!------->
+
+  <div class="tab-pane text-white" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="bg-danger pt-4 pb-4 px-4">
+            <h3>Contact</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, at.</p>
+        </div>
+        <div class="bg-white text-black">
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, adipisci?</p>
+        </div>
+        <div class="input-group mb-3 w-50">
+          <span class="input-group-text bg-danger text-white" id="basic-addon1"><i class="fa-solid fa-image-portrait"></i></span>
+          <input type="text" class="form-control bg-dark" placeholder="name" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3 w-100">
+          <span class="input-group-text bg-danger text-white"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" placeholder="email" class="bg-dark w-50">
+        </div>
+        <div class="input-group w-50">
+          <span class="input-group-text bg-danger text-white"><i class="fa-solid fa-pencil"></i></span>
+          <textarea class="form-control bg-dark" aria-label="With textarea"  placeholder="Message"></textarea>
+        </div>
+        <div>
+          <button type="button" class="btn btn-danger w-50">Subimit</button>
+        </div>
+        </div>
+</div>
+                                 <!--lien js bootstrap-->
+                                 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        
+    
+</body>
+</html>
